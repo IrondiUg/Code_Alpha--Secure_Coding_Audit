@@ -3,7 +3,7 @@
 
 ---
 
-## Task/Assignment Details
+## 📌Task/Assignment Details
 - Select a programming language and application to audit.
 - Perform a code review to identify security vulnerabilities.
 - Use tools like static analyzers or manual inspection methods.
