@@ -1,6 +1,8 @@
 # Code_Alpha Cybersecurity Internship Project
 ## Secure Code Audit
 
+---
+
 ## Task/Assignment Details
 - Select a programming language and application to audit.
 - Perform a code review to identify security vulnerabilities.
