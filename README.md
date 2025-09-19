@@ -1,5 +1,5 @@
 # Code_Alpha Cybersecurity Internship Project
-## Secure Code Audit
+## Secure Coding Audit/Review
 
 ---
 
