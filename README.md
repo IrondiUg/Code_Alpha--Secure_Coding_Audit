@@ -1,4 +1,5 @@
-# Code_Alpha--Secure_Coding_Review-Audit
+# Code_Alpha Cybersecurity Internship Project
+## Secure Code Audit
 
 ## Task/Assignment Details
 - Select a programming language and application to audit.
