@@ -25,9 +25,8 @@
 - Install dependencies used in the program to be audited
    ```
    pip install -r requirements.txt
+   # make sure the project dependecies are in a requirements.txt file
    ```
-   make sure the project dependecies are in a requirement.txt file
-
   
 - Install audit tools
   ```
