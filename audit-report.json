@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "pyotp", "version": "2.9.0", "vulns": []}, {"name": "qrcode", "version": "8.2", "vulns": []}, {"name": "pillow", "version": "11.3.0", "vulns": []}, {"name": "colorama", "version": "0.4.6", "vulns": []}], "fixes": []}

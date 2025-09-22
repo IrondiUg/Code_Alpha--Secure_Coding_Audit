@@ -1,0 +1,2253 @@
+
+
++===========================================================================================================================================================================================+
+
+
+DEPRECATED: this command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.
+
+
+We highly encourage switching to the new `scan` command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.
+
+
++===========================================================================================================================================================================================+
+
+
+{
+    "report_meta": {
+        "scan_target": "files",
+        "scanned": [
+            "requirements.txt"
+        ],
+        "scanned_full_path": [
+            "...path_to_file\\requirements.txt"
+        ],
+        "target_languages": [
+            "python"
+        ],
+        "policy_file": null,
+        "policy_file_source": "local",
+        "audit_and_monitor": false,
+        "api_key": false,
+        "account": "",
+        "local_database_path": null,
+        "safety_version": "3.6.1",
+        "timestamp": "2025-09-19 23:48:14",
+        "packages_found": 3,
+        "vulnerabilities_found": 0,
+        "vulnerabilities_ignored": 60,
+        "remediations_recommended": 0,
+        "telemetry": {
+            "safety_options": {
+                "files": {
+                    "-r": 1
+                },
+                "json": {
+                    "--json": 1
+                }
+            },
+            "safety_version": "3.6.1",
+            "safety_source": "cli",
+            "os_type": "Windows",
+            "os_release": "10",
+            "os_description": "Windows-10-10.0.19045-SP0",
+            "python_version": "3.13.7",
+            "safety_command": "check"
+        },
+        "git": {
+            "branch": "main",
+            "tag": "",
+            "commit": "",
+            "dirty": "False",
+            "origin": ""
+        },
+        "project": null,
+        "json_version": "1.1",
+        "remediations_attempted": 0,
+        "remediations_completed": 0,
+        "remediation_mode": "NON_INTERACTIVE"
+    },
+    "scanned_packages": {
+        "pyotp": {
+            "name": "pyotp",
+            "version": null,
+            "requirements": [
+                {
+                    "raw": "pyotp",
+                    "extras": [],
+                    "marker": null,
+                    "name": "pyotp",
+                    "specifier": ">=0",
+                    "url": null,
+                    "found": "...path_to_file\\requirements.txt"
+                }
+            ]
+        },
+        "qrcode": {
+            "name": "qrcode",
+            "version": null,
+            "requirements": [
+                {
+                    "raw": "qrcode",
+                    "extras": [],
+                    "marker": null,
+                    "name": "qrcode",
+                    "specifier": ">=0",
+                    "url": null,
+                    "found": "...path_to_file\\requirements.txt"
+                }
+            ]
+        },
+        "pillow": {
+            "name": "pillow",
+            "version": null,
+            "requirements": [
+                {
+                    "raw": "pillow",
+                    "extras": [],
+                    "marker": null,
+                    "name": "pillow",
+                    "specifier": ">=0",
+                    "url": null,
+                    "found": "...path_to_file\\requirements.txt"
+                }
+            ]
+        }
+    },
+    "affected_packages": {
+        "pillow": {
+            "name": "pillow",
+            "version": null,
+            "requirements": [
+                {
+                    "raw": "pillow",
+                    "extras": [],
+                    "marker": null,
+                    "name": "pillow",
+                    "specifier": ">=0",
+                    "url": null,
+                    "found": "...path_to_file\\requirements.txt"
+                }
+            ],
+            "found": null,
+            "insecure_versions": [
+                "1.0",
+                "10.0.0",
+                "10.0.1",
+                "10.1.0",
+                "10.2.0",
+                "1.1",
+                "11.2.1",
+                "1.2",
+                "1.3",
+                "1.4",
+                "1.5",
+                "1.6",
+                "1.7.0",
+                "1.7.1",
+                "1.7.2",
+                "1.7.3",
+                "1.7.4",
+                "1.7.5",
+                "1.7.6",
+                "1.7.7",
+                "1.7.8",
+                "2.0.0",
+                "2.1.0",
+                "2.2.0",
+                "2.2.1",
+                "2.2.2",
+                "2.3.0",
+                "2.3.1",
+                "2.3.2",
+                "2.4.0",
+                "2.5.0",
+                "2.5.1",
+                "2.5.2",
+                "2.5.3",
+                "2.6.0",
+                "2.6.1",
+                "2.6.2",
+                "2.7.0",
+                "2.8.0",
+                "2.8.1",
+                "2.8.2",
+                "2.9.0",
+                "3.0.0",
+                "3.1.0",
+                "3.1.0rc1",
+                "3.1.1",
+                "3.1.2",
+                "3.2.0",
+                "3.3.0",
+                "3.3.1",
+                "3.3.2",
+                "3.3.3",
+                "3.4.0",
+                "3.4.1",
+                "3.4.2",
+                "4.0.0",
+                "4.1.0",
+                "4.1.1",
+                "4.2.0",
+                "4.2.1",
+                "4.3.0",
+                "5.0.0",
+                "5.1.0",
+                "5.2.0",
+                "5.3.0",
+                "5.4.0",
+                "5.4.0.dev0",
+                "5.4.1",
+                "6.0.0",
+                "6.1.0",
+                "6.2.0",
+                "6.2.1",
+                "6.2.2",
+                "7.0.0",
+                "7.1.0",
+                "7.1.1",
+                "7.1.2",
+                "7.2.0",
+                "8.0.0",
+                "8.0.1",
+                "8.1.0",
+                "8.1.1",
+                "8.1.2",
+                "8.2.0",
+                "8.3.0",
+                "8.3.1",
+                "8.3.2",
+                "8.4.0",
+                "9.0.0",
+                "9.0.1",
+                "9.1.0",
+                "9.1.1",
+                "9.2.0",
+                "9.3.0",
+                "9.4.0",
+                "9.5.0"
+            ],
+            "secure_versions": [
+                "11.3.0",
+                "11.1.0",
+                "11.0.0",
+                "10.4.0",
+                "10.3.0"
+            ],
+            "latest_version_without_known_vulnerabilities": "11.3.0",
+            "latest_version": "11.3.0",
+            "more_info_url": "https://data.safetycli.com/p/pypi/pillow/97c/"
+        }
+    },
+    "announcements": [
+        {
+            "type": "warning",
+            "message": "Warning: pyotp, qrcode and pillow are unpinned. Safety by default does not report on potential vulnerabilities in unpinned packages. It is recommended to pin your dependencies unless this is a library meant for distribution. To learn more about reporting these, specifier range handling, and options for scanning unpinned packages visit https://docs.pyup.io/docs/safety-range-specs"
+        }
+    ],
+    "vulnerabilities": [],
+    "ignored_vulnerabilities": [
+        {
+            "vulnerability_id": "25934",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<2.5.3"
+            ],
+            "all_vulnerable_specs": [
+                "<2.5.3"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "pillow before 2.5.3 is vulnerable to a DoS in the Jpeg2KImagePlugin.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2014-3598",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/25934/97c"
+        },
+        {
+            "vulnerability_id": "49150",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=9.1.0,<9.1.1"
+            ],
+            "all_vulnerable_specs": [
+                ">=9.1.0,<9.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "libImaging/TgaRleDecode.c in Pillow 9.1.0 has a heap buffer overflow in the processing of invalid TGA image files.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-30595",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/49150/97c"
+        },
+        {
+            "vulnerability_id": "45356",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.0.1"
+            ],
+            "all_vulnerable_specs": [
+                "<9.0.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 9.0.1 allows attackers to delete files because spaces in temporary pathnames are mishandled.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-24303",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/45356/97c"
+        },
+        {
+            "vulnerability_id": "44487",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.0.1"
+            ],
+            "all_vulnerable_specs": [
+                "<9.0.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 9.0.1 includes a fix for CVE-2022-22817: PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A first patch was issued for version 9.0.0 but it did not prevent builtins available to lambda expressions.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/9.0.1.html#security",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-22817",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/44487/97c"
+        },
+        {
+            "vulnerability_id": "40268",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=4.3.0,<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                ">=4.3.0,<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICO container, and thus an attempted memory allocation can be very large.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-27923",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40268/97c"
+        },
+        {
+            "vulnerability_id": "51886",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=9.2.0,<9.3.0"
+            ],
+            "all_vulnerable_specs": [
+                ">=9.2.0,<9.3.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 9.3.0 allows denial of service via SAMPLESPERPIXEL.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#limit-samplesperpixel-to-avoid-runtime-dos",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-45199",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/51886/97c"
+        },
+        {
+            "vulnerability_id": "40593",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.2.0 includes a fix for CVE-2021-25288: There is an out-of-bounds read in J2kDecode, in j2ku_gray_i.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-25287-cve-2021-25288-fix-oob-read-in-jpeg2kdecode",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25288",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40593/97c"
+        },
+        {
+            "vulnerability_id": "40596",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow version 8.2.0 includes a fix for CVE-2021-28678: For BLP data, BlpImagePlugin did not properly check that reads (after jumping to file offsets) returned data. This could lead to a DoS where the decoder could be run a large number of times on empty data.\r\nhttps://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQHA5HAIBOYI3R6HDWCLAGFTIQP767FL/\r\nhttps://github.com/python-pillow/Pillow/pull/5377\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-28678-fix-blp-dos",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-28678",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40596/97c"
+        },
+        {
+            "vulnerability_id": "40594",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow version 8.2.0 includes a fix for CVE-2021-28676: For FLI data, FliDecode did not properly check that the block advance was non-zero, potentially leading to an infinite loop on load.\r\nhttps://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQHA5HAIBOYI3R6HDWCLAGFTIQP767FL/\r\nhttps://github.com/python-pillow/Pillow/pull/5377\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-28676-fix-fli-dos",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-28676",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40594/97c"
+        },
+        {
+            "vulnerability_id": "40592",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.2.0 includes a fix for CVE-2021-25287: There is an out-of-bounds read in J2kDecode, in j2ku_graya_la.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-25287-cve-2021-25288-fix-oob-read-in-jpeg2kdecode",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25287",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40592/97c"
+        },
+        {
+            "vulnerability_id": "40595",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow version 8.2.0 includes a fix for CVE-2021-28677: For EPS data, the readline implementation used in EPSImageFile has to deal with any combination of \\r and \\n as line endings. It used an accidentally quadratic method of accumulating lines while looking for a line ending. A malicious EPS file could use this to perform a DoS of Pillow in the open phase, before an image was accepted for opening.\r\nhttps://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MQHA5HAIBOYI3R6HDWCLAGFTIQP767FL/\r\nhttps://github.com/python-pillow/Pillow/pull/5377\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.2.0.html#cve-2021-28677-fix-eps-dos-on-open",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-28677",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40595/97c"
+        },
+        {
+            "vulnerability_id": "61489",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=2.5.0,<10.0.1"
+            ],
+            "all_vulnerable_specs": [
+                ">=2.5.0,<10.0.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 10.0.1 updates its C dependency 'libwebp' to 1.3.2 to include a fix for a high-risk vulnerability.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/10.0.1.html",
+            "is_transitive": true,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2023-4863",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/61489/97c"
+        },
+        {
+            "vulnerability_id": "25943",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.1.2"
+            ],
+            "all_vulnerable_specs": [
+                "<3.1.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "pillow before 3.1.2 is vulnerable to an integer overflow in Jpeg2KEncode.c causing a buffer overflow. CVE-2016-3076.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-3076",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/25943/97c"
+        },
+        {
+            "vulnerability_id": "40275",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-25290: In TiffDecode.c, there is a negative-offset memcpy with an invalid size.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25290",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40275/97c"
+        },
+        {
+            "vulnerability_id": "40273",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-25293: There is an out-of-bounds read in SGIRleDecode.c.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25293",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40273/97c"
+        },
+        {
+            "vulnerability_id": "40266",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-25292: The PDF parser allows a regular expression DoS (ReDoS) attack via a crafted PDF file because of a catastrophic backtracking regex.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25292",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40266/97c"
+        },
+        {
+            "vulnerability_id": "40272",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-25291: In TiffDecode.c, there is an out-of-bounds read in TiffreadRGBATile via invalid tile boundaries.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25291",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40272/97c"
+        },
+        {
+            "vulnerability_id": "40267",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-27922: Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICNS container, and thus an attempted memory allocation can be very large.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-27922",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40267/97c"
+        },
+        {
+            "vulnerability_id": "40263",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-27921: Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for a BLP container, and thus an attempted memory allocation can be very large.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-27921",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40263/97c"
+        },
+        {
+            "vulnerability_id": "40274",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.1 includes a fix for CVE-2021-25289: TiffDecode has a heap-based buffer overflow when decoding crafted YCbCr files because of certain interpretation conflicts with LibTIFF in RGBA mode. NOTE: this issue exists because of an incomplete fix for CVE-2020-35654.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-25289",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40274/97c"
+        },
+        {
+            "vulnerability_id": "38907",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<2.5.0"
+            ],
+            "all_vulnerable_specs": [
+                "<2.5.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 2.5.0 includes a fix that prevents shell injection.\nhttps://github.com/python-pillow/Pillow/pull/731",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2014-3007",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/38907/97c"
+        },
+        {
+            "vulnerability_id": "38452",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<=7.0.0"
+            ],
+            "all_vulnerable_specs": [
+                "<=7.0.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "In libImaging/SgiRleDecode.c in Pillow through 7.0.0, a number of out-of-bounds reads exist in the parsing of SGI image files, a different issue than CVE-2020-5311.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-11538",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/38452/97c"
+        },
+        {
+            "vulnerability_id": "38451",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<7.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<7.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "In libImaging/Jpeg2KDecode.c in Pillow before 7.1.0, there are multiple out-of-bounds reads via a crafted JP2 file.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-10994",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/38451/97c"
+        },
+        {
+            "vulnerability_id": "38450",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<7.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<7.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "In Pillow before 7.1.0, there are two Buffer Overflows in libImaging/TiffDecode.c.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-10379",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/38450/97c"
+        },
+        {
+            "vulnerability_id": "38448",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<7.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<7.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 7.1.0 has multiple out-of-bounds reads in libImaging/FliDecode.c.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-10177",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/38448/97c"
+        },
+        {
+            "vulnerability_id": "38449",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<7.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<7.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "In libImaging/PcxDecode.c in Pillow before 7.1.0, an out-of-bounds read can occur when reading PCX files where state->shuffle is instructed to read beyond state->buffer.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-10378",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/38449/97c"
+        },
+        {
+            "vulnerability_id": "33138",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.3.2"
+            ],
+            "all_vulnerable_specs": [
+                "<3.3.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 3.3.2 allows context-dependent attackers to execute arbitrary code by using the \"crafted image file\" approach, related to an \"Insecure Sign Extension\" issue affecting the ImagingNew in Storage.c component.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-9190",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/33138/97c"
+        },
+        {
+            "vulnerability_id": "33139",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.3.2"
+            ],
+            "all_vulnerable_specs": [
+                "<3.3.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 3.3.2 allows context-dependent attackers to obtain sensitive information by using the \"crafted image file\" approach, related to an \"Integer Overflow\" issue affecting the Image.core.map_buffer in map.c component.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-9189",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/33139/97c"
+        },
+        {
+            "vulnerability_id": "55182",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=9.1.0,<9.3.0"
+            ],
+            "all_vulnerable_specs": [
+                ">=9.1.0,<9.3.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 9.3.0 includes a security fix: Pillow will now decode the data in its natural CMYK mode, then convert it to RGB and rearrange the channels afterwards. Trying to load the data in an incorrect mode could result in a segmentation fault.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/9.3.0.html#decode-jpeg-compressed-blp1-data-in-original-mode",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": null,
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/55182/97c"
+        },
+        {
+            "vulnerability_id": "51885",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<9.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-45198",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/51885/97c"
+        },
+        {
+            "vulnerability_id": "41271",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=5.2.0,<8.3.2"
+            ],
+            "all_vulnerable_specs": [
+                ">=5.2.0,<8.3.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow from 5.2.0 and before 8.3.2 is vulnerable to Regular Expression Denial of Service (ReDoS) via the getrgb function.\r\nhttps://github.com/python-pillow/Pillow/commit/9e08eb8f78fdfd2f476e1b20b7cf38683754866b\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.3.2.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-23437",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/41271/97c"
+        },
+        {
+            "vulnerability_id": "40270",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "In Pillow before 8.1.0, PcxDecode has a buffer over-read when decoding a crafted PCX file because the user-supplied stride value is trusted for buffer calculations.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-35653",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40270/97c"
+        },
+        {
+            "vulnerability_id": "40265",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.0 fixes TIFF OOB Write error. CVE-2020-35654 #5175.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-35654",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40265/97c"
+        },
+        {
+            "vulnerability_id": "40271",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.1.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.1.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.1.0 includes a fix for SGI Decode buffer overrun. CVE-2020-35655 #5173.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-35655",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40271/97c"
+        },
+        {
+            "vulnerability_id": "39580",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<2.3.1"
+            ],
+            "all_vulnerable_specs": [
+                "<2.3.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "pillow before 2.3.1 makes insecure use of tempfile.mktemp (CVE-2014-1933).",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2014-1933",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/39580/97c"
+        },
+        {
+            "vulnerability_id": "25931",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<2.3.1"
+            ],
+            "all_vulnerable_specs": [
+                "<2.3.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "pillow before 2.3.1 makes insecure use of tempfile.mktemp (CVE-2014-1932).",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2014-1932",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/25931/97c"
+        },
+        {
+            "vulnerability_id": "54688",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=0,<8.2.0"
+            ],
+            "all_vulnerable_specs": [
+                ">=0,<8.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "An issue was discovered in Pillow before 8.2.0. PSDImagePlugin.PsdImageFile lacked a sanity check on the number of input layers relative to the size of the data block. This could lead to a DoS on Image.open prior to Image.load.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-28675",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/54688/97c"
+        },
+        {
+            "vulnerability_id": "67136",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<10.3.0"
+            ],
+            "all_vulnerable_specs": [
+                "<10.3.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 10.3.0 introduces a security update addressing CVE-2024-28219 by replacing certain functions with strncpy to prevent buffer overflow issues.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2024-28219",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/67136/97c"
+        },
+        {
+            "vulnerability_id": "40965",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.3.0"
+            ],
+            "all_vulnerable_specs": [
+                "<8.3.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.3.0 includes a fix for CVE-2021-34552: Pillow through 8.2.0 and PIL (also known as Python Imaging Library) through 1.1.7 allow an attacker to pass controlled parameters directly into a convert function to trigger a buffer overflow in Convert.c\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/8.3.0.html#buffer-overflow\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2021-34552",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40965/97c"
+        },
+        {
+            "vulnerability_id": "62156",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<10.0.0"
+            ],
+            "all_vulnerable_specs": [
+                "<10.0.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 10.0.0 includes a fix for CVE-2023-44271: Denial of Service that uncontrollably allocates memory to process a given task, potentially causing a service to crash by having it run out of memory. This occurs for truetype in ImageFont when textlength in an ImageDraw instance operates on a long text argument.\r\nhttps://github.com/python-pillow/Pillow/pull/7244",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2023-44271",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/62156/97c"
+        },
+        {
+            "vulnerability_id": "25932",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<2.3.2",
+                ">=2.5.0,<2.5.2"
+            ],
+            "all_vulnerable_specs": [
+                "<2.3.2",
+                ">=2.5.0,<2.5.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow versions affected versions include a fix for CVE-2014-3589: PIL/IcnsImagePlugin.py in Python Imaging Library (PIL) and Pillow affected versions allow remote attackers to cause a denial of service via a crafted block size.\r\nhttps://github.com/python-pillow/Pillow/commit/205e056f8f9b06ed7b925cf8aa0874bc4aaf8a7d",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2014-3589",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/25932/97c"
+        },
+        {
+            "vulnerability_id": "44744",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<6.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<6.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 6.2.0 includes a fix for CVE-2019-16865: An issue was discovered in Pillow before 6.2.0. When reading specially crafted invalid image files, the library can either allocate very large amounts of memory or take an extremely long period of time to process the image.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2019-16865",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/44744/97c"
+        },
+        {
+            "vulnerability_id": "40264",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<8.0.1"
+            ],
+            "all_vulnerable_specs": [
+                "<8.0.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 8.0.1 updates 'FreeType' used in binary wheels to v2.10.4 to include a security fix.",
+            "is_transitive": true,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-15999",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/40264/97c"
+        },
+        {
+            "vulnerability_id": "64437",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<10.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<10.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow is potentially vulnerable to DoS attacks through PIL.ImageFont.ImageFont.getmask(). A decompression bomb check has also been added to the affected function.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": null,
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/64437/97c"
+        },
+        {
+            "vulnerability_id": "64436",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<10.2.0"
+            ],
+            "all_vulnerable_specs": [
+                "<10.2.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow is affected by an arbitrary code execution vulnerability. If an attacker has control over the keys passed to the environment argument of PIL.ImageMath.eval(), they may be able to execute arbitrary code.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/10.2.0.html",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2023-50447",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/64436/97c"
+        },
+        {
+            "vulnerability_id": "77942",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                ">=11.2.1,<11.3.0"
+            ],
+            "all_vulnerable_specs": [
+                ">=11.2.1,<11.3.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Affected versions of this package are vulnerable to a Buffer Overflow when saving sufficiently large compressed DDS images (>64KB with default settings). The DDS encoding functionality fails to perform bounds checking when writing to the destination buffer, leading to a heap buffer overflow condition. This vulnerability was introduced in Pillow 11.2.0 when BCn compression support for DDS format was added.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2025-48379",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/77942/97c"
+        },
+        {
+            "vulnerability_id": "37780",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<6.2.2"
+            ],
+            "all_vulnerable_specs": [
+                "<6.2.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "libImaging/SgiRleDecode.c in Pillow before 6.2.2 has an SGI buffer overflow.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-5311",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/37780/97c"
+        },
+        {
+            "vulnerability_id": "37772",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<6.2.2"
+            ],
+            "all_vulnerable_specs": [
+                "<6.2.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "There is a DoS vulnerability in Pillow before 6.2.2 caused by FpxImagePlugin.py calling the range function on an unvalidated 32-bit integer if the number of bands is large. On Windows running 32-bit Python, this results in an OverflowError or MemoryError due to the 2 GB limit. However, on Linux running 64-bit Python this results in the process being terminated by the OOM killer.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2019-19911",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/37772/97c"
+        },
+        {
+            "vulnerability_id": "37781",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<6.2.2"
+            ],
+            "all_vulnerable_specs": [
+                "<6.2.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "libImaging/PcxDecode.c in Pillow before 6.2.2 has a PCX P mode buffer overflow.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-5312",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/37781/97c"
+        },
+        {
+            "vulnerability_id": "37782",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<6.2.2"
+            ],
+            "all_vulnerable_specs": [
+                "<6.2.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "libImaging/FliDecode.c in Pillow before 6.2.2 has an FLI buffer overflow.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-5313",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/37782/97c"
+        },
+        {
+            "vulnerability_id": "37779",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<6.2.2"
+            ],
+            "all_vulnerable_specs": [
+                "<6.2.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "libImaging/TiffDecode.c in Pillow before 6.2.2 has a TIFF decoding integer overflow, related to realloc.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2020-5310",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/37779/97c"
+        },
+        {
+            "vulnerability_id": "44524",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.0.0"
+            ],
+            "all_vulnerable_specs": [
+                "<9.0.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 9.0.0 ensures JpegImagePlugin stops at the end of a truncated file to avoid Denial of Service attacks.\r\nhttps://github.com/python-pillow/Pillow/pull/5921\r\nhttps://github.com/advisories/GHSA-4fx9-vc88-q2xc",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": null,
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/44524/97c"
+        },
+        {
+            "vulnerability_id": "44525",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.0.0"
+            ],
+            "all_vulnerable_specs": [
+                "<9.0.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 9.0.0 excludes carriage return in PDF regex to help prevent ReDoS.\r\nhttps://github.com/python-pillow/Pillow/pull/5912\r\nhttps://github.com/python-pillow/Pillow/commit/43b800d933c996226e4d7df00c33fcbe46d97363",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": null,
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/44525/97c"
+        },
+        {
+            "vulnerability_id": "44485",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.0.0"
+            ],
+            "all_vulnerable_specs": [
+                "<9.0.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 9.0.0 includes a fix for CVE-2022-22815: path_getbbox in path.c in Pillow before 9.0.0 improperly initializes ImagePath.Path.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-22815",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/44485/97c"
+        },
+        {
+            "vulnerability_id": "44486",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<9.0.0"
+            ],
+            "all_vulnerable_specs": [
+                "<9.0.0"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow 9.0.0 includes a fix for CVE-2022-22816: path_getbbox in path.c in Pillow before 9.0.0 has a buffer over-read during initialization of ImagePath.Path.\r\nhttps://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#fixed-imagepath-path-array-handling",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2022-22816",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/44486/97c"
+        },
+        {
+            "vulnerability_id": "25936",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<2.6.2"
+            ],
+            "all_vulnerable_specs": [
+                "<2.6.2"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Pillow before 2.6.2 is vulnerable to a PNG decompression DoS (CVE-2014-9601).",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2014-9601",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/25936/97c"
+        },
+        {
+            "vulnerability_id": "33135",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<3.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Buffer overflow in the ImagingFliDecode function in libImaging/FliDecode.c in Pillow before 3.1.1 allows remote attackers to cause a denial of service (crash) via a crafted FLI file.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-0775",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/33135/97c"
+        },
+        {
+            "vulnerability_id": "33136",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<3.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Buffer overflow in the ImagingPcdDecode function in PcdDecode.c in Pillow before 3.1.1 and Python Imaging Library (PIL) 1.1.7 and earlier allows remote attackers to cause a denial of service (crash) via a crafted PhotoCD file.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-2533",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/33136/97c"
+        },
+        {
+            "vulnerability_id": "33134",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<3.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Buffer overflow in the ImagingLibTiffDecode function in libImaging/TiffDecode.c in Pillow before 3.1.1 allows remote attackers to overwrite memory via a crafted TIFF file.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-0740",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/33134/97c"
+        },
+        {
+            "vulnerability_id": "33137",
+            "package_name": "pillow",
+            "ignored": true,
+            "ignored_reason": "This vulnerability is being ignored due to the 'ignore-unpinned-requirements' flag (default True). To change this, set 'ignore-unpinned-requirements' to False under 'security' in your policy file. See https://docs.pyup.io/docs/safety-20-policy-file for more information.",
+            "ignored_expires": null,
+            "vulnerable_spec": [
+                "<3.1.1"
+            ],
+            "all_vulnerable_specs": [
+                "<3.1.1"
+            ],
+            "analyzed_version": null,
+            "analyzed_requirement": {
+                "raw": "pillow",
+                "extras": [],
+                "marker": null,
+                "name": "pillow",
+                "specifier": ">=0",
+                "url": null,
+                "found": "...path_to_file\\requirements.txt"
+            },
+            "advisory": "Integer overflow in the ImagingResampleHorizontal function in libImaging/Resample.c in Pillow before 3.1.1 allows remote attackers to have unspecified impact via negative values of the new size, which triggers a heap-based buffer overflow.",
+            "is_transitive": false,
+            "published_date": null,
+            "fixed_versions": [],
+            "closest_versions_without_known_vulnerabilities": [],
+            "resources": [],
+            "CVE": "CVE-2016-4009",
+            "severity": null,
+            "affected_versions": [],
+            "more_info_url": "https://data.safetycli.com/v/33137/97c"
+        }
+    ],
+    "remediations": {},
+    "remediations_results": {
+        "vulnerabilities_fixed": [],
+        "remediations_applied": {},
+        "remediations_skipped": {}
+    }
+}
+
+
++===========================================================================================================================================================================================+
+
+
+DEPRECATED: this command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.
+
+
+We highly encourage switching to the new `scan` command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.
+
+
++===========================================================================================================================================================================================+
+
+
