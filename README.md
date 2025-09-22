@@ -27,6 +27,8 @@
    pip install -r requirements.txt
    ```
    make sure the project dependecies are in a requirement.txt file
+
+  
 - Install audit tools
   ```
   pip install pip-audit safety bandit
@@ -39,7 +41,7 @@
   ```
   bandit -r
   ```
-- Save result (for report) in a readable format preferrably .json format
+- Save results (for report) in a readable format preferrably .json format
   ```
   pip-audit -r requirements.txt -f json -o audit-report.json
   safety check -r requirements.txt --json > safety-report.json
