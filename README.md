@@ -13,11 +13,11 @@
 ---
 
 ## 📌Proceedures
-- Install virtual environment(venv) module n terminal
+- Install virtual environment(venv) module in terminal
   ```
   pkg install python-venv
   ```
-- Create and activate a virtual environment (this is necessary to segment the program dependencies from the generally installed python dependencies)
+- Create and activate virtual environment (this is necessary to segment the program dependencies from the generally installed python dependencies)
   ```
   python -m venv .venv
   source .venv/bin/activate
