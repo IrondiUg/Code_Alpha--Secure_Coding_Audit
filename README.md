@@ -12,7 +12,7 @@
 
 ---
 
-## 📌Proceedures
+## 📌Procedures
 - Install virtual environment(venv) module in terminal
   ```
   pkg install python-venv
